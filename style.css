@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.main{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;  
+  margin: 5px 10px;
+  border: 1px solid green;
+  width: 100%;
+  
+}
+.navbar .navlist{
+    display: flex;
+    align-items: center                                                     ;
+}
+.navlist li{
+    display: inline-block;
+    margin: 20px;
+}
+.right_nav i{
+    position: absolute;
+    padding: 12px;
+    
+}
+.right_nav{
+    display: flex;
+    margin: 10px;
+    
+}
+input{
+    border-radius: 45px;
+    width: 300px;
+    padding: 10px;
+}
+p{
+    margin-left: 10px;
+    padding: 10px;
+    
+}
+.sign{
+    border: 1px solid green;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: green;
+    color: white;
+}
+.list ul li{
+    display: inline;
+    
+}
+li{
+    margin: 10px;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    margin-left: 40px;
+}
+.left_text{
+    width: 500px;
+    
+
+}
+.heading{
+    color: green;
+    font-weight: 600;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 5.0em;
+    line-height: 70px;
+}
+.para{
+    margin-top: 10px;
+    font-weight: bold;
+    color: gray;
+    font-size: 20px;
+}
+.btn{
+    margin-top: 50px;
+    width: 150px;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: green;
+    font-size: 1.0em;
+    color: white;
+    border: 1px solid green;
+}
+.image{
+    margin-left: 50px;
+    margin-top: -40px;
+}
+.banner2{
+    display: flex;
+    margin-left: 60px;
+    width: 4000px;
+}
+.heading1{
+    font-size: 3.10em;
+    margin-top: 20px;
+    width: 800px;
+    
+}
+.leftheading1{
+    font-size: 1.400em; 
+    font-weight: lighter;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.leftheading2{
+    font-size: 1.400em; 
+    font-weight: lighter;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.btn1{
+    margin-top: 20px;
+    margin-left: 15px;
+    width: 180px;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: green;
+    cursor: pointer;
+    font-size: 1.0em;
+    color: white;
+    border: 1px solid green;
+}
+.btn2{
+    margin-top: 20px;
+    margin-left: 15px;
+    width: 200px;
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 1.0em;
+    color: green;
+    border: 1px solid green;
+}
+.head1{
+    font-size: 2.40em;
+    margin-left: 80px;
+    margin-top: 30px ;
+}
+.para3{
+    margin-left: 75px;
+    color: gray;
+}
+
+
+
+.cards{
+    margin-top: 40px;
+    margin-left: 80px;
+    display: flex;
+    gap: 35px;
+}
+.card1{
+    border: none;
+    width: 350px;
+    height: 140px;
+    background-color: lightgray;
+    border-radius: 5px;
+   
+}
+.head2{
+    font-size: 30px;
+    padding:10px;
+    margin-left: 10px;
+    font-weight: lighter;
+}
+.num{
+    display: flex;
+    color: gray;
+    font-size: 20px;
+}
+
+.cards1{
+    margin-top: 20px;
+    margin-left: 80px;
+    display: flex;
+    gap: 35px;
+}
+
+
+
+
+
+.banner3{
+    display: flex;
+    /* background-color: darkslategray; */
+    margin-left: 80px;
+    margin-right: 100px;
+    /* width:1200px; */
+    /* padding: 40px; */
+    margin-top: 80px;
+    height: 548px;
+}
+
+.head3{
+    margin-left: 40px;
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: lighter;
+    color: white;
+    /* padding: 40px; */
+}
+.left_3{
+    background-color: darkslategray;
+    width: 1800px;
+}
+.head4{
+    font-size: 55px;
+    margin-left: 40px;
+    color: white;
+    font-weight: lighter;
+}
+.head4 span{
+    color: lightgreen;
+}
+.para4{
+    margin-left: 40px;
+    font-size: 1.4em;
+    width: 1000px;
+    color: white;
+    margin-top: 20px;
+}
+.para5{
+    margin-left: 40px;
+    font-size: 1.4em;
+    width: 1000px;
+    color: white;
+}
+.btn3 {
+    margin-top: 20px;
+margin-left: 40px;
+width: 200px;
+border-radius: 20px;
+padding: 10px;
+cursor: pointer;
+font-size: 1.10em;
+color: darkcyan;
+border: 1px solid green;
+font-weight: lighter;
+}
+
+
+.banner4{
+    display: flex;
+    background-color: blue;
+    width: 1600px;
+    margin-left: 80px;
+    height: 200px;
+} 
+.banner4 .leftimg{
+    width: 200px;
+    margin-left: 80px;
+}
+.head6{
+    margin-left: 40px;
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: lighter;
+    color: white;
+    /* padding: 40px; */
+}
+.head7{
+    font-size: 55px;
+    margin-left: 40px;
+    color: white;
+    font-weight: lighter;
+}
